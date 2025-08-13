@@ -42,21 +42,3 @@ By comparing *before* and *after* values, we identify trends, calculate differen
 
 ---
 
-## 🛠 Example Code
-```python
-import pandas as pd
-
-# Load dataset
-df = pd.read_csv("product_100_rows.csv")
-
-# Price change calculations
-df['Price Change'] = df['Price After'] - df['Price Before']
-df['Price % Change'] = (df['Price Change'] / df['Price Before']) * 100
-
-# Weight change calculations
-df['Weight Change'] = df['Weight After'] - df['Weight Before']
-
-# Detect shrinkflation
-df['Shrinkflation'] = (df['Weight Change'] < 0) & (df['Price Change'] >= 0)
-
-print(df.head())
