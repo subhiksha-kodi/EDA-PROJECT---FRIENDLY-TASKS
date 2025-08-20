@@ -27,18 +27,29 @@ By comparing *before* and *after* values, we identify trends, calculate differen
 
 2. *Price Analysis*
    - Calculated absolute and percentage change in price
-   - Identified products with price increases/decreases
+   - Identified products with price increases/decreases  
+
+   📊 **Visualization**:  
+   ![Price Before and After](plots/price.png)
 
 3. *Weight Analysis*
    - Calculated change in weight
-   - Flagged cases of *shrinkflation* (less weight, same/higher price)
+   - Flagged cases of *shrinkflation* (less weight, same/higher price)  
+
+   📊 **Visualization**:  
+   ![Weight Before and After](plots/weight.png)
 
 4. *Category-wise Trends*
    - Grouped products by category
-   - Found average change in price and weight per category
+   - Found average change in price and weight per category  
+
+   📊 **Visualization**:  
+   ![Weight and Price Relationship](plots/weight_price.png)
 
 5. *Date-based Trends*
-   - Checked how changes varied over different dates
+   - Checked how changes varied over different dates  
+
+   📊 **Visualization**:  
+   ![Weight vs Price Before & After](plots/weight_and_price.png)
 
 ---
-
