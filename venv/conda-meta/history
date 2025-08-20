@@ -1,4 +1,4 @@
-==> 2025-08-12 17:11:41 <==
+==> 2025-08-20 18:26:15 <==
 # cmd: C:\Users\subik\anaconda4\Scripts\conda-script.py create -p venv python==3.13 -y
 # conda version: 25.5.1
 +defaults/noarch::pip-25.1-pyhc872135_2
@@ -13,7 +13,7 @@
 +defaults/win-64::python_abi-3.13-0_cp313
 +defaults/win-64::setuptools-78.1.1-py313haa95532_0
 +defaults/win-64::sqlite-3.50.2-hda9a48d_1
-+defaults/win-64::tk-8.6.14-h5e9d12e_1
++defaults/win-64::tk-8.6.15-hf199647_0
 +defaults/win-64::ucrt-10.0.22621.0-haa95532_0
 +defaults/win-64::vc-14.3-h2df5915_10
 +defaults/win-64::vc14_runtime-14.44.35208-h4927774_10

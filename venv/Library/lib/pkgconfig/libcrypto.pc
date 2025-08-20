@@ -1,4 +1,4 @@
-prefix=D:/AI WORKSHOP/PROJECT DAY 1/venv/Library 
+prefix=D:/AI WORKFORCE/EDA PROJECT (FRIENDLY TASKS)/venv/Library 
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
